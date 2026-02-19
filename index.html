@@ -1,0 +1,471 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Launch Lab — продуктовая студия Startup as a Service: валидируем идеи, упаковываем продукт, запускаем MVP и приводим первых пользователей."
+    />
+    <title>Launch Lab — Startup as a Service</title>
+    <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com"
+    />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&family=Sora:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="background" aria-hidden="true"></div>
+
+    <header class="site-header">
+      <div class="container header-inner">
+        <div class="logo">
+          <span class="logo-mark"></span>
+          <span class="logo-text">Launch Lab</span>
+        </div>
+        <nav class="nav">
+          <a href="#solution" data-i18n="nav.solution">Решение</a>
+          <a href="#process" data-i18n="nav.process">Процесс</a>
+          <a href="#services" data-i18n="nav.services">Форматы</a>
+          <a href="#cases" data-i18n="nav.cases">Кейсы</a>
+          <a href="#contact" class="nav-cta" data-i18n="nav.cta">Обсудить проект</a>
+        </nav>
+        <div class="lang-toggle" role="group" aria-label="Language switcher">
+          <button class="lang-btn" data-lang="ru" aria-pressed="true">RU</button>
+          <button class="lang-btn" data-lang="en" aria-pressed="false">EN</button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <div class="eyebrow" data-i18n="hero.eyebrow">Startup as a Service / Product Studio</div>
+            <h1 data-i18n="hero.title">
+              Превращаем идеи в продукты, которые нужны рынку
+            </h1>
+            <p class="lead" data-i18n="hero.lead">
+              Launch Lab проверяет спрос до разработки, формирует продуктовую стратегию и запускает MVP за 6–8 недель. Мы продаём результат: подтверждённый рынок + работающий продукт.
+            </p>
+            <div class="hero-actions">
+              <a href="#contact" class="btn primary" data-i18n="hero.ctaPrimary">Запустить идею</a>
+              <a href="#process" class="btn ghost" data-i18n="hero.ctaSecondary">Посмотреть путь</a>
+            </div>
+            <div class="hero-trust">
+              <div class="trust-item" data-i18n="hero.trust1">Отказ от нежизнеспособных проектов</div>
+              <div class="trust-item" data-i18n="hero.trust2">Фиксированные этапы и сроки</div>
+              <div class="trust-item" data-i18n="hero.trust3">Фокус на метриках и спросе</div>
+            </div>
+          </div>
+          <div class="hero-visual">
+            <div class="hero-card reveal">
+              <div class="hero-card-title" data-i18n="hero.cardTitle">Спринт валидации</div>
+              <div class="hero-card-metric">
+                <span class="metric-value">6–8</span>
+                <span class="metric-label" data-i18n="hero.cardMetric">недель до MVP</span>
+              </div>
+              <div class="hero-card-list">
+                <div data-i18n="hero.cardItem1">Интервью и тест спроса</div>
+                <div data-i18n="hero.cardItem2">Продуктовая концепция</div>
+                <div data-i18n="hero.cardItem3">Запуск и первые пользователи</div>
+              </div>
+            </div>
+            <div class="hero-glow"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section pain" id="pain">
+        <div class="container">
+          <div class="section-header reveal">
+            <div class="eyebrow" data-i18n="pain.eyebrow">Проблема рынка</div>
+            <h2 data-i18n="pain.title">Большинство продуктов проваливаются до запуска</h2>
+            <p data-i18n="pain.lead">
+              Основная причина не в разработке, а в отсутствии валидации спроса и продуктовой стратегии. Риск: вложить бюджет и не получить результата.
+            </p>
+          </div>
+          <div class="pain-grid">
+            <div class="pain-card reveal">
+              <h3 data-i18n="pain.card1.title">Нет подтверждённой потребности</h3>
+              <p data-i18n="pain.card1.text">Слишком поздно узнавать, что продукт не решает реальную боль.</p>
+            </div>
+            <div class="pain-card reveal">
+              <h3 data-i18n="pain.card2.title">Разработка “вслепую”</h3>
+              <p data-i18n="pain.card2.text">Команды тратят месяцы на функции, которые не влияют на спрос.</p>
+            </div>
+            <div class="pain-card reveal">
+              <h3 data-i18n="pain.card3.title">Нет системного выхода на рынок</h3>
+              <p data-i18n="pain.card3.text">Без позиционирования и стратегии продукт не получает первые продажи.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section solution" id="solution">
+        <div class="container solution-grid">
+          <div class="solution-copy reveal">
+            <div class="eyebrow" data-i18n="solution.eyebrow">Решение Launch Lab</div>
+            <h2 data-i18n="solution.title">Мы запускаем продукт по проверенному пути</h2>
+            <p data-i18n="solution.lead">
+              Launch Lab — продуктовая студия, которая сочетает стратегию, исследования и инженерную скорость. Мы работаем как партнёры, а не как подрядчики.
+            </p>
+            <ul class="bullet-list">
+              <li data-i18n="solution.bullet1">Валидация гипотез до разработки</li>
+              <li data-i18n="solution.bullet2">Фокус на ключевой ценности и метриках</li>
+              <li data-i18n="solution.bullet3">Быстрый запуск и первые пользователи</li>
+            </ul>
+            <a href="#services" class="btn primary" data-i18n="solution.cta">Выбрать формат работы</a>
+          </div>
+          <div class="solution-panel reveal">
+            <div class="panel-title" data-i18n="solution.panelTitle">Что получает клиент</div>
+            <div class="panel-item">
+              <span class="panel-dot"></span>
+              <div>
+                <div class="panel-head" data-i18n="solution.panel1.title">Проверенный спрос</div>
+                <div class="panel-text" data-i18n="solution.panel1.text">Подтверждение интереса рынка до масштабной разработки.</div>
+              </div>
+            </div>
+            <div class="panel-item">
+              <span class="panel-dot"></span>
+              <div>
+                <div class="panel-head" data-i18n="solution.panel2.title">Чёткий продуктовый план</div>
+                <div class="panel-text" data-i18n="solution.panel2.text">Сценарии, roadmap и ТЗ для быстрого старта.</div>
+              </div>
+            </div>
+            <div class="panel-item">
+              <span class="panel-dot"></span>
+              <div>
+                <div class="panel-head" data-i18n="solution.panel3.title">Рабочий MVP</div>
+                <div class="panel-text" data-i18n="solution.panel3.text">Минимальный продукт, готовый к первым продажам и итерациям.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section process" id="process">
+        <div class="container">
+          <div class="section-header reveal">
+            <div class="eyebrow" data-i18n="process.eyebrow">Процесс</div>
+            <h2 data-i18n="process.title">Путь от идеи до первых пользователей</h2>
+            <p data-i18n="process.lead">
+              Каждая стадия фиксирована по срокам, понятна по результату и прозрачно измеряется.
+            </p>
+          </div>
+          <div class="process-grid">
+            <div class="process-step reveal">
+              <div class="step-number">01</div>
+              <h3 data-i18n="process.step1.title">Идея и исследование</h3>
+              <p data-i18n="process.step1.text">Разбираем рынок, клиентов и альтернативы, формируем гипотезы ценности.</p>
+            </div>
+            <div class="process-step reveal">
+              <div class="step-number">02</div>
+              <h3 data-i18n="process.step2.title">Валидация спроса</h3>
+              <p data-i18n="process.step2.text">Лендинги, интервью, тест трафика, расчёт экономики и интереса.</p>
+            </div>
+            <div class="process-step reveal">
+              <div class="step-number">03</div>
+              <h3 data-i18n="process.step3.title">Продуктовая упаковка</h3>
+              <p data-i18n="process.step3.text">Сценарии, core-функционал, roadmap и архитектура MVP.</p>
+            </div>
+            <div class="process-step reveal">
+              <div class="step-number">04</div>
+              <h3 data-i18n="process.step4.title">Быстрый запуск</h3>
+              <p data-i18n="process.step4.text">Разработка MVP, релиз, сбор первых пользователей и данных.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section differentiators">
+        <div class="container">
+          <div class="section-header reveal">
+            <div class="eyebrow" data-i18n="diff.eyebrow">Отличие от аутсорса</div>
+            <h2 data-i18n="diff.title">Мы продаём результат, а не код</h2>
+            <p data-i18n="diff.lead">Launch Lab помогает понять, что строить и зачем. Это защищает бюджет и ускоряет выход на рынок.</p>
+          </div>
+          <div class="diff-table reveal">
+            <div class="diff-row diff-head">
+              <div data-i18n="diff.col1">Классический аутсорс</div>
+              <div data-i18n="diff.col2">Launch Lab</div>
+            </div>
+            <div class="diff-row">
+              <div data-i18n="diff.row1a">Работа по ТЗ клиента</div>
+              <div data-i18n="diff.row1b">Совместное формирование продукта</div>
+            </div>
+            <div class="diff-row">
+              <div data-i18n="diff.row2a">Оплата за часы</div>
+              <div data-i18n="diff.row2b">Оплата за результат и этапы</div>
+            </div>
+            <div class="diff-row">
+              <div data-i18n="diff.row3a">Без анализа рынка</div>
+              <div data-i18n="diff.row3b">Валидация спроса до разработки</div>
+            </div>
+            <div class="diff-row">
+              <div data-i18n="diff.row4a">Любой проект</div>
+              <div data-i18n="diff.row4b">Фильтр идей и отказ от слабых</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section services" id="services">
+        <div class="container">
+          <div class="section-header reveal">
+            <div class="eyebrow" data-i18n="services.eyebrow">Форматы работы</div>
+            <h2 data-i18n="services.title">Выберите подходящий формат запуска</h2>
+          </div>
+          <div class="services-grid">
+            <div class="service-card reveal">
+              <div class="service-tag">Validate</div>
+              <h3 data-i18n="services.card1.title">Валидация идеи</h3>
+              <p data-i18n="services.card1.text">Глубокий анализ рынка, проверка спроса и решение — идти в разработку или нет.</p>
+              <ul class="bullet-list">
+                <li data-i18n="services.card1.b1">Интервью и тест гипотез</li>
+                <li data-i18n="services.card1.b2">Landing + реклама</li>
+                <li data-i18n="services.card1.b3">Отчёт с метриками</li>
+              </ul>
+            </div>
+            <div class="service-card reveal">
+              <div class="service-tag">MVP</div>
+              <h3 data-i18n="services.card2.title">Продуктовая упаковка + MVP</h3>
+              <p data-i18n="services.card2.text">Формируем концепцию и запускаем минимальный продукт, готовый к тесту рынка.</p>
+              <ul class="bullet-list">
+                <li data-i18n="services.card2.b1">Сценарии и roadmap</li>
+                <li data-i18n="services.card2.b2">UX прототипы</li>
+                <li data-i18n="services.card2.b3">Разработка и запуск</li>
+              </ul>
+            </div>
+            <div class="service-card reveal">
+              <div class="service-tag">Launch</div>
+              <h3 data-i18n="services.card3.title">Рост продукта</h3>
+              <p data-i18n="services.card3.text">Аналитика, эксперименты и масштабирование после первых продаж.</p>
+              <ul class="bullet-list">
+                <li data-i18n="services.card3.b1">Product analytics</li>
+                <li data-i18n="services.card3.b2">A/B тесты</li>
+                <li data-i18n="services.card3.b3">План роста</li>
+              </ul>
+            </div>
+          </div>
+          <div class="equity-panel reveal">
+            <div>
+              <h3 data-i18n="services.equity.title">Equity-партнёрство</h3>
+              <p data-i18n="services.equity.text">Для сильных идей предлагаем снижение оплаты в обмен на долю 5–20%.</p>
+            </div>
+            <a href="#contact" class="btn ghost" data-i18n="services.equity.cta">Обсудить условия</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section audience" id="audience">
+        <div class="container audience-grid">
+          <div class="section-header reveal">
+            <div class="eyebrow" data-i18n="audience.eyebrow">Для кого</div>
+            <h2 data-i18n="audience.title">Клиенты, которым важен результат</h2>
+            <p data-i18n="audience.lead">Мы работаем с фаундерами и бизнесами, которые готовы инвестировать в продукт и ценят скорость решений.</p>
+          </div>
+          <div class="audience-cards">
+            <div class="audience-card reveal">
+              <h3 data-i18n="audience.card1.title">Фаундеры без технической команды</h3>
+              <p data-i18n="audience.card1.text">Нужен партнёр, который возьмёт ответственность за продукт.</p>
+            </div>
+            <div class="audience-card reveal">
+              <h3 data-i18n="audience.card2.title">Предприниматели с капиталом</h3>
+              <p data-i18n="audience.card2.text">Важно быстро проверить идеи и снизить риск потери бюджета.</p>
+            </div>
+            <div class="audience-card reveal">
+              <h3 data-i18n="audience.card3.title">Компании, запускающие новые продукты</h3>
+              <p data-i18n="audience.card3.text">Нужна продуктовая стратегия и быстрый MVP.</p>
+            </div>
+          </div>
+          <div class="audience-note reveal">
+            <span data-i18n="audience.note">Мы не берёмся за проекты без бюджета или с идеями без рынка.</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="section workflow" id="workflow">
+        <div class="container">
+          <div class="section-header reveal">
+            <div class="eyebrow" data-i18n="workflow.eyebrow">Как мы работаем</div>
+            <h2 data-i18n="workflow.title">Чёткий, прозрачный процесс запуска</h2>
+          </div>
+          <div class="workflow-list">
+            <div class="workflow-item reveal">
+              <div class="workflow-number">1</div>
+              <div>
+                <h3 data-i18n="workflow.step1.title">Диагностика и фильтр</h3>
+                <p data-i18n="workflow.step1.text">Быстрый созвон и оценка рынка. Если идея не проходит — честно скажем.</p>
+              </div>
+            </div>
+            <div class="workflow-item reveal">
+              <div class="workflow-number">2</div>
+              <div>
+                <h3 data-i18n="workflow.step2.title">Спринт валидации</h3>
+                <p data-i18n="workflow.step2.text">Исследования, интервью, тест спроса и финальное решение.</p>
+              </div>
+            </div>
+            <div class="workflow-item reveal">
+              <div class="workflow-number">3</div>
+              <div>
+                <h3 data-i18n="workflow.step3.title">Продуктовая упаковка</h3>
+                <p data-i18n="workflow.step3.text">Формируем core-функции, UX и техническое ТЗ.</p>
+              </div>
+            </div>
+            <div class="workflow-item reveal">
+              <div class="workflow-number">4</div>
+              <div>
+                <h3 data-i18n="workflow.step4.title">MVP и запуск</h3>
+                <p data-i18n="workflow.step4.text">Собираем продукт, запускаем и собираем метрики.</p>
+              </div>
+            </div>
+          </div>
+          <div class="workflow-cta reveal">
+            <a href="#contact" class="btn primary" data-i18n="workflow.cta">Получить оценку идеи</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section cases" id="cases">
+        <div class="container">
+          <div class="section-header reveal">
+            <div class="eyebrow" data-i18n="cases.eyebrow">Кейсы</div>
+            <h2 data-i18n="cases.title">Примеры запусков и результатов</h2>
+          </div>
+          <div class="cases-grid">
+            <div class="case-card reveal">
+              <div class="case-tag" data-i18n="cases.case1.tag">FinTech / B2B</div>
+              <h3 data-i18n="cases.case1.title">Платформа для управления расходами</h3>
+              <p data-i18n="cases.case1.text">Валидация спроса показала высокий интерес у CFO. Запуск MVP за 7 недель.</p>
+              <div class="case-metrics">
+                <div>
+                  <div class="metric-value">120+</div>
+                  <div class="metric-label" data-i18n="cases.case1.metric1">Лидов за 3 недели</div>
+                </div>
+                <div>
+                  <div class="metric-value">38%</div>
+                  <div class="metric-label" data-i18n="cases.case1.metric2">Конверсия лендинга</div>
+                </div>
+              </div>
+            </div>
+            <div class="case-card reveal">
+              <div class="case-tag" data-i18n="cases.case2.tag">HealthTech / B2C</div>
+              <h3 data-i18n="cases.case2.title">Сервис персональных программ восстановления</h3>
+              <p data-i18n="cases.case2.text">Интервью подтвердили главную проблему, запущен MVP и первые платные подписки.</p>
+              <div class="case-metrics">
+                <div>
+                  <div class="metric-value">5.2x</div>
+                  <div class="metric-label" data-i18n="cases.case2.metric1">Рост запросов</div>
+                </div>
+                <div>
+                  <div class="metric-value">4</div>
+                  <div class="metric-label" data-i18n="cases.case2.metric2">Недели до релиза</div>
+                </div>
+              </div>
+            </div>
+            <div class="case-card reveal">
+              <div class="case-tag" data-i18n="cases.case3.tag">Enterprise / SaaS</div>
+              <h3 data-i18n="cases.case3.title">Внутренний продукт для логистики</h3>
+              <p data-i18n="cases.case3.text">Фокус на core-функции сократил стоимость внедрения и ускорил запуск.</p>
+              <div class="case-metrics">
+                <div>
+                  <div class="metric-value">-32%</div>
+                  <div class="metric-label" data-i18n="cases.case3.metric1">Снижение затрат</div>
+                </div>
+                <div>
+                  <div class="metric-value">6</div>
+                  <div class="metric-label" data-i18n="cases.case3.metric2">Спринтов</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <p class="cases-note" data-i18n="cases.note">Некоторые проекты — под NDA. Подробности доступны при запросе.</p>
+        </div>
+      </section>
+
+      <section class="section contact" id="contact">
+        <div class="container contact-grid">
+          <div class="contact-copy reveal">
+            <div class="eyebrow" data-i18n="contact.eyebrow">Запуск проекта</div>
+            <h2 data-i18n="contact.title">Готовы проверить идею?</h2>
+            <p data-i18n="contact.lead">
+              Оставьте короткое описание проекта — мы вернёмся с оценкой и предложением следующего шага.
+            </p>
+            <div class="contact-info">
+              <div>
+                <div class="contact-label" data-i18n="contact.info1.title">Срок ответа</div>
+                <div class="contact-text" data-i18n="contact.info1.text">24 часа в рабочие дни</div>
+              </div>
+              <div>
+                <div class="contact-label" data-i18n="contact.info2.title">Формат</div>
+                <div class="contact-text" data-i18n="contact.info2.text">Созвон на 20 минут + краткий план</div>
+              </div>
+            </div>
+          </div>
+          <div class="contact-form reveal">
+            <form id="leadForm" novalidate>
+              <div class="form-field">
+                <label for="name" data-i18n="form.name">Имя</label>
+                <input type="text" id="name" name="name" autocomplete="name" aria-describedby="error-name" data-i18n-placeholder="form.namePlaceholder" placeholder="Ваше имя" required />
+                <span class="field-error" id="error-name" data-error-for="name"></span>
+              </div>
+              <div class="form-field">
+                <label for="email" data-i18n="form.email">Email</label>
+                <input type="email" id="email" name="email" autocomplete="email" aria-describedby="error-email" data-i18n-placeholder="form.emailPlaceholder" placeholder="you@company.com" required />
+                <span class="field-error" id="error-email" data-error-for="email"></span>
+              </div>
+              <div class="form-field">
+                <label for="project" data-i18n="form.project">Краткое описание проекта</label>
+                <textarea id="project" name="project" rows="4" autocomplete="off" aria-describedby="error-project" data-i18n-placeholder="form.projectPlaceholder" placeholder="Опишите идею, рынок, цель" required></textarea>
+                <span class="field-error" id="error-project" data-error-for="project"></span>
+              </div>
+              <div class="form-field">
+                <label for="telegram" data-i18n="form.telegram">Telegram (опционально)</label>
+                <input type="text" id="telegram" name="telegram" autocomplete="off" data-i18n-placeholder="form.telegramPlaceholder" placeholder="@username" />
+              </div>
+              <button type="submit" class="btn primary" data-i18n="form.submit">Отправить заявку</button>
+              <p class="form-note" data-i18n="form.note">Нажимая кнопку, вы соглашаетесь на обработку данных для связи.</p>
+              <div class="form-success" role="status" aria-live="polite" hidden>
+                <div class="success-title" data-i18n="form.successTitle">Заявка отправлена</div>
+                <div class="success-text" data-i18n="form.successText">Спасибо! Мы свяжемся с вами в ближайший рабочий день.</div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <div class="logo footer-logo">
+            <span class="logo-mark"></span>
+            <span class="logo-text">Launch Lab</span>
+          </div>
+          <p data-i18n="footer.tagline">Продуктовая студия, которая запускает идеи в рынок.</p>
+        </div>
+        <div class="footer-links">
+          <a href="#process" data-i18n="footer.link1">Процесс</a>
+          <a href="#services" data-i18n="footer.link2">Форматы</a>
+          <a href="#contact" data-i18n="footer.link3">Контакт</a>
+        </div>
+        <div class="footer-meta">
+          <span data-i18n="footer.meta1">© 2026 Launch Lab. Все права защищены.</span>
+          <span data-i18n="footer.meta2">Работаем по всему миру, удалённо.</span>
+        </div>
+      </div>
+    </footer>
+
+    <script src="main.js"></script>
+  </body>
+</html>
